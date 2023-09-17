@@ -1,0 +1,15 @@
+C:\Users\sethl\Documents\GitHub\cse310-portfolio\Hello_World\bin\Debug\net7.0\Hello_World.exe
+C:\Users\sethl\Documents\GitHub\cse310-portfolio\Hello_World\bin\Debug\net7.0\Hello_World.deps.json
+C:\Users\sethl\Documents\GitHub\cse310-portfolio\Hello_World\bin\Debug\net7.0\Hello_World.runtimeconfig.json
+C:\Users\sethl\Documents\GitHub\cse310-portfolio\Hello_World\bin\Debug\net7.0\Hello_World.dll
+C:\Users\sethl\Documents\GitHub\cse310-portfolio\Hello_World\bin\Debug\net7.0\Hello_World.pdb
+C:\Users\sethl\Documents\GitHub\cse310-portfolio\Hello_World\obj\Debug\net7.0\Hello_World.csproj.AssemblyReference.cache
+C:\Users\sethl\Documents\GitHub\cse310-portfolio\Hello_World\obj\Debug\net7.0\Hello_World.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sethl\Documents\GitHub\cse310-portfolio\Hello_World\obj\Debug\net7.0\Hello_World.AssemblyInfoInputs.cache
+C:\Users\sethl\Documents\GitHub\cse310-portfolio\Hello_World\obj\Debug\net7.0\Hello_World.AssemblyInfo.cs
+C:\Users\sethl\Documents\GitHub\cse310-portfolio\Hello_World\obj\Debug\net7.0\Hello_World.csproj.CoreCompileInputs.cache
+C:\Users\sethl\Documents\GitHub\cse310-portfolio\Hello_World\obj\Debug\net7.0\Hello_World.dll
+C:\Users\sethl\Documents\GitHub\cse310-portfolio\Hello_World\obj\Debug\net7.0\refint\Hello_World.dll
+C:\Users\sethl\Documents\GitHub\cse310-portfolio\Hello_World\obj\Debug\net7.0\Hello_World.pdb
+C:\Users\sethl\Documents\GitHub\cse310-portfolio\Hello_World\obj\Debug\net7.0\Hello_World.genruntimeconfig.cache
+C:\Users\sethl\Documents\GitHub\cse310-portfolio\Hello_World\obj\Debug\net7.0\ref\Hello_World.dll
