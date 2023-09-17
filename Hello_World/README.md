@@ -1,6 +1,6 @@
 # Overview
 
-This software is a basic "Hello World" program designed to showcase the ability to set up a development environment and execute a simple program written in C#. The program will display the message "Hello World" to the user. 
+This software is a basic "Hello World" program designed to showcase the ability to set up a development environment and execute a simple program written in C#. The program will display the message "Hello, World!" to the user. 
 
 [Software Demo Video](https://youtu.be/Qz9RRJlaaX8)
 
