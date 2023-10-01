@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sethl\\Documents\\GitHub\\cse310-portfolio\\Hello_World\\Hello_World.csproj": {}
+    "c:\\Users\\sethl\\Documents\\GitHub\\cse310-portfolio\\Hello_World\\Hello_World.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sethl\\Documents\\GitHub\\cse310-portfolio\\Hello_World\\Hello_World.csproj": {
+    "c:\\Users\\sethl\\Documents\\GitHub\\cse310-portfolio\\Hello_World\\Hello_World.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sethl\\Documents\\GitHub\\cse310-portfolio\\Hello_World\\Hello_World.csproj",
+        "projectUniqueName": "c:\\Users\\sethl\\Documents\\GitHub\\cse310-portfolio\\Hello_World\\Hello_World.csproj",
         "projectName": "Hello_World",
-        "projectPath": "C:\\Users\\sethl\\Documents\\GitHub\\cse310-portfolio\\Hello_World\\Hello_World.csproj",
+        "projectPath": "c:\\Users\\sethl\\Documents\\GitHub\\cse310-portfolio\\Hello_World\\Hello_World.csproj",
         "packagesPath": "C:\\Users\\sethl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sethl\\Documents\\GitHub\\cse310-portfolio\\Hello_World\\obj\\",
+        "outputPath": "c:\\Users\\sethl\\Documents\\GitHub\\cse310-portfolio\\Hello_World\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sethl\\AppData\\Roaming\\NuGet\\NuGet.Config"
