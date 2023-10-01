@@ -1,5 +1,5 @@
 To-do List:
 
-1. [Done] Water
-2. [Not Done] Air
-3. [Not Done] Fire
+1. [Not Done] Mow lawn
+2. [Not Done] Brush hair
+3. [Not Done]  Brush teeth

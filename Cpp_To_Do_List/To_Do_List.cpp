@@ -11,7 +11,9 @@ class Task { // This is a class that represents a task
 public:
 
     // This is the constructor for the class, it takes a string as a parameter and sets the description to that string and sets isDone to false
-    explicit Task(std::string desc) : description(std::move(desc)), isDone(false) {} 
+    explicit Task(std::string desc) : description(std::move(desc)), isDone(false) { // Uses member initializer list to initialize the variables
+
+    } 
 
     std::string description;  // A string to store the description of the task
     bool isDone;  // A boolean to store whether the task is done or not
@@ -34,6 +36,8 @@ public:
     // Adds a task to the list
     void addTask(std::string desc) {
         tasks.emplace_back(std::move(desc));  
+
+        // emplace_back is a function that is used to add an element to the end of a vector. It is more efficient than push_back as it avoids copying the element.
     }
 
     // Removes a task by index
@@ -77,8 +81,6 @@ public:
 
         if (file.is_open()) {  
 
-
-            // Add a header to the file "To-do List"
             file << "To-do List:\n\n";
 
             for(int i = 0; i < tasks.size(); ++i) {  // Loop through tasks
@@ -126,7 +128,7 @@ int main() {
             case 1: {
                 std::cout << "\nEnter task description: ";
                 std::string desc;
-                std::cin.ignore();
+                std::cin.ignore(); // Need to add so that the string doesn't have a newline character in it
                 std::getline(std::cin, desc);
                 myTasks.addTask(desc);
                 std::cout << "\n";
