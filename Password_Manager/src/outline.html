@@ -1,0 +1,79 @@
+**1. Introduction to Rust**
+- What is Rust?
+    - A systems programming language that guarantees memory safety.
+    - Performance and concurrency advantages.
+
+**2. Basics of Variables and Data Types**
+- Variables:
+    - Immutable by default.
+    - Use of `mut` keyword for mutable variables.
+- Common Data Types:
+    - Integers, floats, booleans, and characters.
+- Strings:
+    - Difference between `String` (owned string) and `str` (string slice).
+    - Methods to manipulate and access strings.
+
+**3. User Input and Output**
+- `println!`:
+    - How to print to the console.
+    - Using `{}` to insert variables into print statements.
+- Taking User Input:
+    - The `std::io::stdin().read_line()` method.
+    - Parsing and handling user input.
+
+**4. Control Flow**
+- Conditional Statements:
+    - `if`, `else`, and `else if`.
+- Loop Constructs:
+    - Infinite loops using `loop`.
+    - Conditional loops with `while`.
+    - Iterative loops with `for`.
+- Decision Making with `match`:
+    - Like switch-case in other languages.
+    - Handling various scenarios and patterns.
+
+**5. Data Structures**
+- Tuples and Arrays:
+    - Fixed-size collections of values.
+- Collections:
+    - `Vec<T>`: A growable list of items.
+    - `HashMap<K, V>`: Key-value storage.
+        - Methods like `insert`, `get`, and iteration over keys/values.
+
+**6. Custom Data Types and Methods**
+- Structs:
+    - Defining custom data types with `struct`.
+    - Understanding fields and methods.
+- `impl` Blocks:
+    - Adding methods to structs.
+    - Introduction to the `self` keyword.
+
+**7. Memory Safety in Rust**
+- Ownership:
+    - A set of rules to manage memory.
+- Borrowing:
+    - Two types: Mutable and Immutable borrows.
+- Lifetimes:
+    - Ensuring references are valid for as long as they're used.
+
+**8. Error Handling**
+- Understanding `Option` and `Result`:
+    - How Rust handles the absence of a value or possible errors.
+- The `unwrap` method:
+    - Quick and dirty error handling.
+    - Dangers of panicking.
+- Using `match` for Error Handling:
+    - Gracefully handling potential errors without crashing.
+
+**9. External Libraries and Advanced Features**
+- Using Crates:
+    - What are crates?
+    - The `extern crate` declaration.
+- Advanced Features in Action:
+    - Introduction to the `rand` crate.
+    - Generating random numbers and strings.
+
+**10. Bringing it All Together: The Password Manager**
+- Reviewing the password manager code.
+- Tracing through each function and method.
+- Understanding the flow and logic behind each decision.
