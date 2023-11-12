@@ -39,6 +39,3 @@ def main(): # main function
 
 if __name__ == "__main__":
     main()
-
-
-# C:/Users/sethl/AppData/Local/Programs/Python/Python311/python.exe c:/Users/sethl/Documents/GitHub/cse310-portfolio/Chat_Application/chat_client.py
