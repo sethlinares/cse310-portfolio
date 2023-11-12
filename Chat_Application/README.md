@@ -1,38 +1,47 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This chat application, written in Python, provides a simple but intuitive interface to communicate with other users. Users can interact with a console application to send and receive messages from other users. The program utilizes fundamental aspects of Python, such as sockets, threads, and other structures. This software serves as a practical application of core programming concepts and is a great example of how Python can be used to create a useful program especially in the field of networking. Overall, this project was a great learning experience and I am excited to continue learning Python and other key concepts like networking.
 
-{Provide a description the networking program that you wrote. Describe how to use your software.  If you did Client/Server, then you will need to describe how to start both.}
+To use the chat application, the server must be running first. Once the server is running, clients can connect to the server and start sending messages. The server will then broadcast the messages to all other connected clients. 
 
-{Describe your purpose for writing this software.}
+# Video Demonstration
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (you will need to show two pieces of software running and communicating with each other) and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Chat Application Demo Video](https://youtu.be/H9hdKUqbYHY)
 
 # Network Communication
 
-{Describe the architecture that you used (client/server or peer-to-peer)}
+The architecture that I used was client/server. The server is the host and the client is the guest. The server is the one that is listening for a connection from the client. Once the client connects to the server, the server will send a message to the client. The client will then send a message back to the server. The server will then send a message back to the client. The client will then send a message back to the server. This process will continue until the client sends a message to the server saying that it wants to disconnect. The server will then send a message back to the client saying that it is disconnecting. The client will then disconnect from the server.
 
-{Identify if you are using TCP or UDP and what port numbers are used.}
+- **Protocol Used:** TCP (Transmission Control Protocol)
+- **Port Number:** The application uses port `65432` for the TCP connections.
+- TCP is chosen for its reliability in data transmission, ensuring that messages are delivered in order and without loss, which is essential for a chat application.
 
-{Identify the format of messages being sent between the client and server or the messages sent between two peers.}
+Messages in this chat application are exchanged in plain text format and encoded in UTF-8.
+
+- **From Client to Server:**
+  - Clients send their messages as plain text strings to the server.
+  - Example: A user types `"Hello World"` and it's sent as is to the server.
+
+- **From Server to Clients:**
+  - When the server receives a message from one of the clients, the server adds an identifier (like Client 1, Client 2, etc) to this message to indicate its origin and then broadcasts it to all other connected clients.
+  - Example: If Client 1 sends `"Hello World"`, other clients receive `"Client 1: Hello World"`.
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+* Visual Studio Code
 
-{Describe the programming language that you used and any libraries.}
+* Programming Language: Python
+
+* Libraries: `socket`, `threading`
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Socket Documentation](https://docs.python.org/3/library/socket.html)
+* [Threading Documentation](https://docs.python.org/3/library/threading.html)
+* [Python Tutorial](https://www.w3schools.com/python/)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Add a GUI for the application
+* Allow for file transfer
+* Add some encryption or security
