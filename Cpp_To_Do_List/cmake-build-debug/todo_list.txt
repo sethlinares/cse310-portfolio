@@ -1,5 +1,5 @@
 To-do List:
 
-1. [Not Done] Mow lawn
-2. [Not Done] Brush hair
-3. [Not Done]  Brush teeth
+1. [Not Done] Task 1
+2. [Done] Task 2
+3. [Not Done] Task 3
