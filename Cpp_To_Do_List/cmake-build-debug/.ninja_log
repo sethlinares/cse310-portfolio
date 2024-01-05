@@ -1,19 +1,3 @@
 # ninja log v5
-0	555	7178347065029389	CMakeFiles/Cpp_To_Do_List.dir/To_Do_List.cpp.obj	2d0344de4889a1de
-557	669	7178347066132164	Cpp_To_Do_List.exe	ac6f787d2039b4a7
-3	500	7178349629630905	CMakeFiles/Cpp_To_Do_List.dir/To_Do_List.cpp.obj	2d0344de4889a1de
-500	585	7178349630460900	Cpp_To_Do_List.exe	ac6f787d2039b4a7
-3	658	7178354809149830	CMakeFiles/Cpp_To_Do_List.dir/To_Do_List.cpp.obj	2d0344de4889a1de
-658	752	7178354810085023	Cpp_To_Do_List.exe	ac6f787d2039b4a7
-3	613	7178355620255253	CMakeFiles/Cpp_To_Do_List.dir/To_Do_List.cpp.obj	2d0344de4889a1de
-613	691	7178355621015322	Cpp_To_Do_List.exe	ac6f787d2039b4a7
-2	503	7178357357614918	CMakeFiles/Cpp_To_Do_List.dir/To_Do_List.cpp.obj	2d0344de4889a1de
-504	589	7178357358446949	Cpp_To_Do_List.exe	ac6f787d2039b4a7
-2	523	7178381664834148	CMakeFiles/Cpp_To_Do_List.dir/To_Do_List.cpp.obj	2d0344de4889a1de
-523	612	7178381665711170	Cpp_To_Do_List.exe	ac6f787d2039b4a7
-3	609	7178382690019149	CMakeFiles/Cpp_To_Do_List.dir/To_Do_List.cpp.obj	2d0344de4889a1de
-609	686	7178382690764450	Cpp_To_Do_List.exe	ac6f787d2039b4a7
-3	575	7178383095343997	CMakeFiles/Cpp_To_Do_List.dir/To_Do_List.cpp.obj	2d0344de4889a1de
-575	659	7178383096158436	Cpp_To_Do_List.exe	ac6f787d2039b4a7
 3	558	7178412472311707	CMakeFiles/Cpp_To_Do_List.dir/To_Do_List.cpp.obj	2d0344de4889a1de
 558	665	7178412473346908	Cpp_To_Do_List.exe	ac6f787d2039b4a7
